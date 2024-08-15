@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazônia</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="shortcut icon" href="brasil.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f1e5; /* Cor de fundo inspirada no bioma */
+            color: #333;
+        }
+        header {
+            background-color: #258112; /* Cor marrom para remeter ao solo da Caatinga */
+            color: white;
+            padding: 20px;
+            text-align: center; /* Centraliza o texto e a lista dentro do cabeçalho */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #fcfbfb;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente a lista */
+            gap: 15px; /* Espaçamento entre os itens */
+        }
+        .nav-list li {
+            margin: 0;
+        }
+        .nav-list a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .nav-list a:hover {
+            background-color: #4e0d18;
+            transform: scale(1.05);
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Adiciona centralização do texto e imagem */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block; /* Assegura que a imagem é tratada como bloco inline */
+            margin: 20px 0;
+        }
+        a {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #6a1b29; /* Cor inspirada na vegetação da Caatinga */
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        a:hover {
+            background-color: #4e0d18;
+            transform: scale(1.05);
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            a {
+                font-size: 1em;
+                padding: 10px 20px;
+            }
+            .nav-list a {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tour digital pelos biomas do Brasil</h1>
+        <ul class="nav-list">
+            <li><a href="index.html">Caatinga</a></li>
+            <li><a href="Amazonia.html">Amazônia</a></li>
+            <li><a href="Cerrado.html">Cerrado</a></li>
+            <li><a href="Pampa.html">Pampa</a></li>
+            <li><a href="Pantanal.html">Pantanal</a></li>
+            <li><a href="Mata Atlântica.html">mata Atlântica</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <img src="amazonia.jpg" alt="Região da amazonia">
+        <p>
+            <a href="https://www.google.com/maps/@-3.1377605,-60.4933549,3a,75y,158.46h,91.06t/data=!3m6!1e1!3m4!1s1ci-8iBT_UuG1dlrUy1vzg!2e0!7i13312!8i6656?coh=205409&entry=ttu" target="_blank">
+                Clique aqui para ver no Google Earth
+            </a>
+        </p>
+    </div>
+</body>
+</html>
